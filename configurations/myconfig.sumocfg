@@ -1,0 +1,17 @@
+<configuration>
+
+<input>
+<net-file value="official.net.xml"/>
+<route-files value="./Rounds/qtest6/static_trip.rou.xml"/>
+</input>
+<output> <netstate-dump value="test_dump.xml" />
+<summary value="summary.xml"/>   
+<statistic-output value="stats_output.xml"/>
+</output>   
+
+<time>
+<begin value="0"/>
+<end value="200000"/>
+</time>
+
+</configuration>
